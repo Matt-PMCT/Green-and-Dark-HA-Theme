@@ -1,0 +1,95 @@
+# A dark theme with a green accent color
+#
+# Modified: Matt Emerson - Github: Matt-PMCT
+# Modified: GitHub: dmyoung9
+# Original Creator: Juan - @juanmtech - Website: https://www.juanmtech.com - YouTube Channel: https://youtube.com/juanmtech - My Home Assistant Config files: https://github.com/JuanMTech/Home_Assistant_files
+#
+#
+Green and Dark:
+  # Header:
+  app-header-background-color: "#151515"
+  app-header-text-color: "#7c7d83"
+  # Main Interface Colors
+  primary-color: "#20764C"
+  light-primary-color: "#45AA79"
+  primary-background-color: "#151515"
+  secondary-background-color: "#202020"
+  accent-color: rgb(247, 183, 60)
+  divider-color: var(--secondary-background-color)
+  # Text
+  primary-text-color: "#BDC1C6"
+  secondary-text-color: "#BDC1C6"
+  text-primary-color: "#FFFFFF"
+  disabled-text-color: "#000000"
+  text-accent-color: "#111111"
+  # Sidebar Menu
+  sidebar-icon-color: var(--app-header-text-color)
+  sidebar-text-color: "#BDC1C6"
+  sidebar-background-color: var(--secondary-background-color)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  # States and Badges
+  state-icon-color: "#636469"
+  state-icon-active-color: var(--primary-color)
+  state-icon-unavailable-color: var(--disabled-text-color)
+  # Sliders
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Labels
+  label-badge-background-color: "#202124"
+  label-badge-text-color: "#BDC1C6"
+  label-badge-red: "#D06568"
+  label-badge-green: "#80C884"
+  label-badge-blue: "#5F9BEA"
+  label-badge-yellow: "#DFC271"
+  label-badge-gray: "#5F6267"
+
+  # Inputs
+  input-fill-color: var(--secondary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--secondary-text-color)
+  input-idle-line-color: var(--primary-text-color)
+  input-hover-line-color: var(--primary-text-color)
+  input-disabled-fill-color: var(--secondary-background-color)
+  input-disabled-ink-color: var(--secondary-text-color)
+
+  # Cards
+  card-background-color: "#252525"
+  ha-card-border-radius: "10px"
+  ha-card-box-shadow: 0px
+  paper-dialog-background-color: var(--card-background-color)
+  paper-listbox-background-color: var(--primary-background-color)
+  paper-card-background-color: var(--card-background-color)
+  # Switches
+  switch-checked-button-color: var(--light-primary-color)
+  switch-checked-track-color: "#347f5a"
+  switch-unchecked-button-color: "#636466"
+  switch-unchecked-track-color: "#636466"
+  # Toggles
+  paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+  paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+  paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+  # Table
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  data-table-background-color: var(--primary-background-color)
+  # Dropdowns
+  material-background-color: var(--secondary-background-color)
+  material-secondary-background-color: var(--primary-background-color)
+  mdc-theme-surface: var(--secondary-background-color)
+  mdc-select-fill-color: var(--secondary-background-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--primary-text-color)
+  # HACS
+  hacs-chip-background-color: var(--primary-color)
+  # Pre/Code
+  markdown-code-background-color: "#151515"
