@@ -9,6 +9,9 @@ Add this to your configuration.yaml
 
 frontend:
   themes: !include_dir_merge_named themes
+### Sample Picture
+
+![firefox_oC3qer9YuA](https://user-images.githubusercontent.com/6832191/162251678-bfee2954-2aba-4f92-a05b-285134917bf4.png)
 
 ### HACS
 
