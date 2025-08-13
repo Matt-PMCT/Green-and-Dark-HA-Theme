@@ -1,17 +1,19 @@
 # A dark theme with a green accent color
 #
 # Modified: Matt Emerson - Github: Matt-PMCT
-# Modified: GitHub: dmyoung9
 # Original Creator: Juan - @juanmtech - Website: https://www.juanmtech.com - YouTube Channel: https://youtube.com/juanmtech - My Home Assistant Config files: https://github.com/JuanMTech/Home_Assistant_files
 #
 #
-Green and Dark:
+Green and Dark Local:
+  # RGB Variables
+  rgb-primary-color: rgb(32, 138, 76)
+  rgb-light-color: rgb(69, 170, 121)
   # Header:
   app-header-background-color: "#151515"
   app-header-text-color: "#7c7d83"
   # Main Interface Colors
-  primary-color: "#20764C"
-  light-primary-color: "#45AA79"
+  primary-color: var(--rgb-primary-color) #"#208a4c"
+  light-primary-color: var(--rgb-light-color) #"#45AA79"
   primary-background-color: "#151515"
   secondary-background-color: "#202020"
   accent-color: rgb(247, 183, 60)
@@ -93,3 +95,29 @@ Green and Dark:
   hacs-chip-background-color: var(--primary-color)
   # Pre/Code
   markdown-code-background-color: "#151515"
+  # Modifing MDC text to be brighter
+  mdc-theme-primary:  var(--light-primary-color)
+  # Mushroom Card variables, these require strings of the RGB values, kinda annoying...
+  mush-rgb-state-cover: "69, 170, 121"
+  mush-rgb-state-fan: "69, 170, 121"
+  mush-rgb-state-light: "69, 170, 121"
+  mush-rgb-state-entity: "69, 170, 121"
+  mush-rgb-state-switch: "69, 170, 121"
+  mush-rgb-state-cover-open: "69, 170, 121"
+  
+  # New Buttons 2025.8
+  ha-color-primary-05: '#113612'
+  ha-color-primary-10: '#164A1C'
+  ha-color-primary-20: '#1A5F29'
+  ha-color-primary-30: '#1D7439'
+  ha-color-primary-40: '#208A4C'
+  ha-color-primary-50: '#3A9A5D'
+  ha-color-primary-60: '#54AA6E'
+  ha-color-primary-70: '#6FB981'
+  ha-color-primary-80: '#8AC796'
+  ha-color-primary-90: '#A6D6AD'
+  ha-color-primary-95: '#C2E3C5'
+  ha-color-on-primary-normal: var(--ha-color-primary-50)
+  app-header-edit-background-color: var(--ha-color-primary-10)
+  state-switch-on-color: var(--ha-color-primary-50)
+  cm-selectionBackground: var(--ha-color-primary-20)
