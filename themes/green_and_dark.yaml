@@ -59,6 +59,10 @@ Green and Dark Local:
   input-hover-line-color: var(--primary-text-color)
   input-disabled-fill-color: var(--secondary-background-color)
   input-disabled-ink-color: var(--secondary-text-color)
+  # HA 2026.4+ form semantic tokens (ha-input migration)
+  ha-color-form-background: var(--secondary-background-color)
+  ha-color-form-background-hover: var(--card-background-color)
+  ha-color-form-background-disabled: var(--secondary-background-color)
 
   # Cards
   card-background-color: "#252525"

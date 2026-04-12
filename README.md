@@ -1,6 +1,10 @@
 # Green-and-Dark-HA-Theme
 A dark theme with green accents for Home Assistant based off green_dark_mode by JuanMTech, with mods by dmyoung9
 
+## Compatibility notes
+
+- Home Assistant 2026.4 migrated input components to `ha-input` and introduced new semantic form color tokens. This theme now sets `ha-color-form-background*` variables so dropdowns and other inputs no longer fall back to white.
+
 ##Enable themes in Home Assistant
 
 Create a themes directory in your Home Assistant Config directory
