@@ -116,12 +116,23 @@ Green and Dark Local:
   ha-color-primary-20: '#1A5F29'
   ha-color-primary-30: '#1D7439'
   ha-color-primary-40: '#208A4C'
-  ha-color-primary-50: '#3A9A5D'
+  ha-color-primary-50: '#45AA79'   # was #3A9A5D, unified with light-primary-color
   ha-color-primary-60: '#54AA6E'
   ha-color-primary-70: '#6FB981'
   ha-color-primary-80: '#8AC796'
   ha-color-primary-90: '#A6D6AD'
   ha-color-primary-95: '#C2E3C5'
+  ha-color-neutral-05: '#0a0d0a'
+  ha-color-neutral-10: '#151815'
+  ha-color-neutral-20: '#1f2420'
+  ha-color-neutral-30: '#252b26'
+  ha-color-neutral-40: '#2f362f'
+  ha-color-neutral-50: '#404840'
+  ha-color-neutral-60: '#5a635b'
+  ha-color-neutral-70: '#758076'
+  ha-color-neutral-80: '#9aa49b'
+  ha-color-neutral-90: '#c0c9c2'
+  ha-color-neutral-95: '#e0e6e1'
   ha-color-on-primary-normal: var(--ha-color-primary-50)
   app-header-edit-background-color: var(--ha-color-primary-10)
   state-switch-on-color: var(--ha-color-primary-50)
