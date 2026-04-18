@@ -136,3 +136,4 @@ Green and Dark Local:
   ha-color-on-primary-normal: var(--ha-color-primary-50)
   app-header-edit-background-color: var(--ha-color-primary-10)
   state-switch-on-color: var(--ha-color-primary-50)
+  ha-color-fill-neutral-quiet-resting: var(--ha-color-neutral-10)
