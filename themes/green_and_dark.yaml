@@ -5,15 +5,15 @@
 #
 #
 Green and Dark Local:
-  # RGB Variables
-  rgb-primary-color: rgb(32, 138, 76)
-  rgb-light-color: rgb(69, 170, 121)
+  # RGB Variables (comma-separated triplets, no rgb() wrapper)
+  rgb-primary-color: 32, 138, 76
+  rgb-light-color: 69, 170, 121
   # Header:
   app-header-background-color: "#151515"
   app-header-text-color: "#7c7d83"
   # Main Interface Colors
-  primary-color: var(--rgb-primary-color) #"#208a4c"
-  light-primary-color: var(--rgb-light-color) #"#45AA79"
+  primary-color: rgb(var(--rgb-primary-color)) #"#208a4c"
+  light-primary-color: rgb(var(--rgb-light-color)) #"#45AA79"
   primary-background-color: "#151515"
   secondary-background-color: "#202020"
   accent-color: rgb(247, 183, 60)
@@ -63,6 +63,7 @@ Green and Dark Local:
   ha-color-form-background: var(--secondary-background-color)
   ha-color-form-background-hover: var(--card-background-color)
   ha-color-form-background-disabled: var(--secondary-background-color)
+  wa-color-neutral-fill-normal: "rgba(69, 170, 121, 0.14)"
 
   # Cards
   card-background-color: "#252525"
@@ -124,4 +125,3 @@ Green and Dark Local:
   ha-color-on-primary-normal: var(--ha-color-primary-50)
   app-header-edit-background-color: var(--ha-color-primary-10)
   state-switch-on-color: var(--ha-color-primary-50)
-  cm-selectionBackground: var(--ha-color-primary-20)
